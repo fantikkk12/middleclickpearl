@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "middleclickpearl",
+  "version": "${version}",
+  "name": "Middle Click Pearl",
+  "description": "Бросает эндер-жемчуг по нажатию средней кнопки мыши.",
+  "authors": ["ch0ffa"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.ch0ffaindustries.middleclick.MiddleClickPearlClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
